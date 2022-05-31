@@ -106,12 +106,12 @@ input {
   width: 90%;
   margin-left: 35px;
   padding: 0px 30px;
+  padding-bottom: 5px;
   border-radius: 20px;
   box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset,
     rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
   background-color: white;
   word-break: break-all;
-
 }
 .btnclear {
   padding: 10px 20px;
@@ -119,4 +119,12 @@ input {
   margin-top: 10%;
   box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset,
     rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
+.btn_output {
+  margin-left: 10px;
+  background-color: darkgray;
+  border: none;
+  color: white;
+  border-radius: 10px;
+  padding: 5px 10px;
 }
